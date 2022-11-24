@@ -1,0 +1,21 @@
+{
+    "devices": {
+        "bluetooth": {
+            "blukon": {
+                "deviceId": "d9:7c:95:20:c4:3a",
+                "service": "436a62c0-082e-4ce8-a08b-01d81f195b24"
+            }
+        }
+    },
+    "database": {
+        "path": "bluberry.db"
+    },
+    "name": "bluberry configuration",
+    "log": {
+        "level": "DEBUG",
+        "file": "bluberry.log"
+    },
+    "PID_FILE": "/var/run/bluberry/bluberry.pid",
+    "USER": "bluberry",
+    "GROUP": "bluberry"
+}
